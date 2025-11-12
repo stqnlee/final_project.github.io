@@ -1,0 +1,109 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #333;
+}
+body.dark-mode {
+  background-color: #222;
+  color: #ddd;
+}
+
+.dark-mode .navbar-light {
+  background-color: #333 !important;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+  color: #4dabf7 !important;
+}
+
+.dark-mode .card,
+.dark-mode .list-group-item,
+.dark-mode .table {
+  background-color: #333;
+  color: #ddd;
+}
+
+.dark-mode .footer {
+  background-color: #111 !important;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #444;
+  color: #ddd;
+  border-color: #555;
+}
+
+.site-header .navbar-brand {
+  font-weight: 700;
+  color: #0d6efd;
+}
+#themeToggle {
+    margin-top: 5px;
+}
+.brand-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.benefits {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+  color: #6c757d;
+}
+
+.benefits li {
+  margin-bottom: .35rem;
+}
+
+.product-card img {
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 5%;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (
+    max-width: 576px
+    ) {
+  .brand-title {
+    font-size: 1rem;
+  }
+  .product-card img {
+    height: 160px;
+  }
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid #0d6efd26;
+  outline-offset: 2px;
+}
+
+.is-valid {
+  border-color: #198754 !important;
+  box-shadow: none !important;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+  box-shadow: none !important;
+}
